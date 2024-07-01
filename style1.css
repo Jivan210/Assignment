@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(3, 66, 3);
+    color: beige;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 50px;
+    background-image: url("2503085.jpg");
+    background-size: contain ;
+    align-items: center;
+}
+.nav-name{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.nav-con{
+    margin-right: 10px;
+    margin-left: auto;
+
+}
+.panel{
+    padding: 20px;
+}
+.panel1{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.panel1-i{
+    opacity: 0.5;
+    height: 200px;
+    width: 100%;
+    background-image: url("pexels-bertellifotografia-1144687.jpg");
+    background-size: contain;
+    display: block;
+}
+.panel1-w{
+    color: rgb(3, 66, 3);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+.panel2{
+    height: 50%;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.panel2-w{
+    width: 100%;
+    padding: 20px;
+}
+.panel2-i{
+    width: 100%;
+    background-image: url("pexels-tobiasbjorkli-2113566.jpg");
+    background-position: 50%;
+    background-size: cover;
+}
+
+.panel3 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+.panel3-w {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+}
+
+.panel3-i {
+    width: 50%;
+    background-image: url("pexels-tobiasbjorkli-2113566.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    height: 50px;
+    background-color: rgb(3, 66, 3);
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
