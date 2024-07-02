@@ -39,6 +39,18 @@
     align-items: center;
     border: 2px solid black;
     padding: 20px;
+    justify-content: center;
+    max-width: 50%;
+}
+.table{
+    height: 50%;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout:auto;
+    border: 1px solid black;
+}
+th,td{
+    border: 1px solid black;
 }
 .label{
     display: block;
